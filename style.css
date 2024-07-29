@@ -1,0 +1,70 @@
+header {
+  display: flex; /* Make the header a flex container */
+  align-items: center;
+  justify-content: center;/* Vertically center the logo and heading */
+}
+
+#logo {
+  margin-right: 20px;
+  width: 100px; /* Adjust this value to control the width of the logo */
+  height: auto;/* Add space between the logo and the heading */
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #01233f;
+  
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 70px;
+  color: whitesmoke;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+main div{
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.submit-button-wrapper {
+  display: flex; /* Make the wrapper a flex container */
+  justify-content: center; /* Center the button horizontally */
+}
+
+#submit-button {
+  background-color: #06adc2; /* Green background */
+  color: black; /* White text */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove default button border */
+  border-radius: 3px;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+#name, #dob, #phonenumber, #eduqua, #passperc, #postapp, #skills, #exp, #uploadresume {
+  padding: 5px; 
+  margin-left: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  width: 600px;
+  background-color: #06adc2;
+}
+
+#eduqua{
+  width:600px
+}
+
+
+
